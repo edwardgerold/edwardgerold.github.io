@@ -5,30 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edward Gerold | Web3 Developer</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #222; }
-        h1 { color: #2d3748; }
-        .bio { margin-bottom: 1.5em; }
-        .links a { margin-right: 1em; color: #3182ce; text-decoration: none; }
-        .links a:hover { text-decoration: underline; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #222;
+        }
+        .container {
+            max-width: 700px;
+            margin: 3em auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(60,60,120,0.15);
+            padding: 2em 2.5em;
+        }
+        h1 {
+            color: #2575fc;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            color: #6a11cb;
+            margin-top: 2em;
+        }
+        .bio {
+            margin-bottom: 1.5em;
+            font-size: 1.15em;
+            color: #444;
+        }
+        ul {
+            padding-left: 1.2em;
+        }
+        ul li {
+            margin-bottom: 0.7em;
+        }
+        .links {
+            margin-top: 1.5em;
+        }
+        .links a {
+            display: inline-block;
+            margin-right: 1em;
+            padding: 0.5em 1.2em;
+            background: #2575fc;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .links a:hover {
+            background: #6a11cb;
+        }
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1em;
+            border: 3px solid #2575fc;
+            box-shadow: 0 2px 8px rgba(60,60,120,0.12);
+        }
     </style>
 </head>
 <body>
-    <h1>Edward Gerold</h1>
-    <div class="bio">
-        <p>
-            Hi, I'm Edward—a passionate Web3 developer building decentralized applications and smart contracts.<br>
-            I specialize in Ethereum, Solidity, and blockchain integrations. My mission is to make Web3 accessible and secure for everyone.
-        </p>
+    <div class="container">
+        <!-- Optional: Add your photo here -->
+        <!-- <img src="your-photo.jpg" alt="Edward Gerold" class="avatar"> -->
+        <h1>Edward Gerold</h1>
+        <div class="bio">
+            <p>
+                👋 Hi, I'm Edward—a Web3 developer dedicated to building secure, scalable, and user-friendly decentralized applications.<br>
+                With expertise in Ethereum, Solidity, and blockchain integrations, I help teams and communities unlock the full potential of Web3.<br>
+                My focus: smart contracts, dApp architecture, and making blockchain technology accessible for everyone.
+            </p>
+        </div>
+        <h2>Featured Projects</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/edwardgerold/dapp-starter" target="_blank">DApp Starter Kit</a>
+                <span style="color:#6a11cb;">– Boilerplate for Ethereum dApps</span>
+            </li>
+            <li>
+                <a href="https://github.com/edwardgerold/nft-marketplace" target="_blank">NFT Marketplace</a>
+                <span style="color:#6a11cb;">– Buy, sell, and mint NFTs</span>
+            </li>
+            <li>
+                <a href="https://github.com/edwardgerold/web3-utils" target="_blank">Web3 Utils</a>
+                <span style="color:#6a11cb;">– Useful tools for blockchain developers</span>
+            </li>
+        </ul>
+        <h2>Connect</h2>
+        <div class="links">
+            <a href="https://github.com/edwardgerold" target="_blank">GitHub</a>
+            <a href="https://twitter.com/edwardgerold" target="_blank">Twitter</a>
+            <a href="mailto:edwardgerold@example.com">Email</a>
+        </div>
     </div>
-    <h2>Featured Projects</h2>
-    <ul>
-        <li><a href="https://github.com/edwardgerold/dapp-starter" target="_blank">DApp Starter Kit</a> – Boilerplate for Ethereum dApps</li>
-        <li><a href="https://github.com/edwardgerold/nft-marketplace" target="_blank">NFT Marketplace</a> – Buy, sell, and mint NFTs</li>
-        <li><a href="https://github.com/edwardgerold/web3-utils" target="_blank">Web3 Utils</a> – Useful tools for blockchain developers</li>
-    </ul>
-    <h2>Connect</h2>
-    <div class="links">
-        <a href="https://github.com/edwardgerold" target="_blank">GitHub</a>
-        <a href="https://twitter.com/edwardgerold" target="_blank">Twitter</a>
-        <a href="mailto:edwardgerold@example.com">Email</a>
-    </div>
+</body>
+</html>
